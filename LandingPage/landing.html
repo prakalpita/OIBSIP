@@ -1,10 +1,72 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <link rel="stylesheet" href="LandingPage/landing.css">
-        <title>Responsive landing page</title>
-    </head>
-    <body>
-        <div>Welcome to landing page !!</div>
-    </body>
+<html lang="en">
+<head>
+  <title>Prakalpita Pet Shop</title>
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <meta charset="utf-8" name="Prakalpita Pet Shop" content="This a landing page for selling animals as pet">
+  <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Kelly+Slab&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="landing.css" />
+</head>
+<body>
+  <header id="header">
+    <div id="logo">
+      <h1><img id="header-img" alt="Prakalpita Pet Shop Logo" src="images/logo.png">PRAKALPITA<br>Pet Shop</h1>
+    </div>  
+    <nav id="nav-bar">
+      <p><a class="nav-link" href="#whyus">Why us?</a></p>
+      <p><a class="nav-link" href="#care">Pet Care</a></p>
+      <p><a class="nav-link" href="#sell">Best Sellers</a></p>
+    </nav>
+  </header>
+  <main>
+    <article id="whyus">
+      <div id="sub">
+        <h2>Why Us?</h2>
+        <p><strong>INDIA'S MOST TRUSTED PETS</strong></p>
+      </div>
+      <div id="features">
+        <p><i class="fa fa-check-circle"></i> Most cutest</p>&nbsp;&nbsp;&nbsp;&nbsp;
+        <p><i class="fa fa-check-circle"></i> Most friendliest</p>&nbsp;&nbsp;&nbsp;&nbsp;
+        <p><i class="fa fa-check-circle"></i> Discover the joy of having baby pet</p>&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>    
+    </article>
+    <article id="care">
+      <h2>Pet Care</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ed22MIDGVr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </article>
+    <article id="sell">
+      <h2>Best Sellers</h2>
+      <div id="bestsell">
+        <figure id="dog-box">
+          <img  id="dog" alt="Dog" src="images/dog.jpg">
+          <figcaption>Baby Pomeranian</figcaption>          
+          <figcaption>Cutest<br>Among all dogs</figcaption>
+          <figcaption><input class="price" type="button" value="₹3000 - ₹7000"></figcaption></figcaption>
+        </figure>
+        <figure id="cat-box">
+          <img id="cat" alt="Cat" src="images/cat.jpg">
+          <figcaption>Baby Cat</figcaption>          
+          <figcaption>Cutest<br>Among all cats</figcaption>
+          <figcaption><input class="price" type="button" value="₹5,000 - ₹7000"></figcaption></figcaption>
+        </figure>
+        <figure id="rabbit-box">
+          <img id="rabbit" alt="Rabbit" src="images/rabbit.jpg">
+          <figcaption>Baby Rabbit</figcaption>
+          <figcaption>Cutest<br>Among all rabbits</figcaption>
+          <figcaption><input class="price" type="button" value="₹2,500 - ₹4000"></figcaption>
+        </figure>
+      </div>    
+    </article>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <p><b>Interested?? Subscribe with your email and we will be in touch 😁</b></p>
+      <label for="email"><b>Email:</b></label>
+      <input type="email" id="email" name="email" placeholder="Type in your email" required><br><br>
+      <input id="submit" type="submit" value="Keep in Touch">
+    </form>
+  </main>
+  <footer id="footer">
+	<p align="center">Copyright © 2023 All Rights Reserved, Developed By: Prakalpita Nahak.</p>
+</footer>
+</body>
 </html>

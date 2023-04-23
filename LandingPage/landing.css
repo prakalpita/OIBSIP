@@ -1,0 +1,206 @@
+a {
+    text-decoration-line: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  a:hover {
+    background-color: #5F9EA0;
+  }
+  
+  #bestsell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #rabbit {
+    background-color: rgb(44,47,52);
+  }
+  
+  #rabbit-box {
+    background-color: rgb(44,47,52);
+  }
+  
+  #dog {
+    background-color: rgb(118,128,92);
+  }
+  
+  #dog-box {
+    background-color: rgb(118,128,92);
+  }
+  
+  #dog,#cat,#rabbit {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  #email {
+    font-family: 'Kelly Slab', cursive;
+  }
+  
+  #features {
+    width: 100%;
+    margin: auto;
+  }
+  
+  #features p {
+    display: inline-block;
+  }
+  
+  figcaption {
+    color: white;
+    margin: 10px;
+  }
+  
+  figure {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  #form {
+    background-color: rgba(0,0,0,1);
+    font-family: 'Caesar Dressing', cursive;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 2.5rem;
+  }
+  
+  #header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(rgb(248, 200, 220), rgb(249, 163, 203));
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+  }
+  
+  #header-img {
+    float: left;
+    max-width: 3.9rem;
+    background: linear-gradient(rgb(248, 200, 220), rgb(249, 163, 203));
+  }
+  
+  html {
+    font-family: 'Kelly Slab', cursive;
+    font-size: 1.1rem;
+    background: linear-gradient(rgb(248, 200, 220), rgb(249, 163, 203));
+  }
+  
+  #logo {
+    min-width: 200px;
+    max-width: 230px;
+    float: left;
+  }
+  
+  #logo h1 {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 1.7rem;
+    overflow: auto;
+  }
+  
+  main {
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+   }
+  
+  @media only screen and (min-width: 600px) {
+  
+     #nav-bar p { 
+        font-size: 1.1rem; 
+     }
+     #form p { 
+        font-size: 0.9rem; 
+     }
+     #footer p { 
+        font-size: 0.6rem; 
+     }
+  
+  }
+  
+  @media only screen and (min-width: 600px) {
+    #nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  #nav-bar {
+    margin-right: 20px;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    clear: both;
+  }
+  
+  #nav-bar p {
+    min-width: 100px;
+  }
+  
+  ::placeholder {
+    font-family: 'Kelly Slab', cursive;
+  }
+  
+  .price {
+    font-size: 1.15rem;
+    font-family: 'Caesar Dressing', cursive;
+    background-color: #5F9EA0;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  #sell {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  strong {
+    font-size: 1.25rem;
+  }
+  
+  #sub {
+    text-align: center;
+  }
+  
+  #submit {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 1.0rem;
+    background-color: #5F9EA0;
+  }
+  
+  svg {
+    width: 1.1rem;
+  }
+  
+  #cat {
+    background-color: rgb(58,52,47);
+  }
+  
+  #cat-box {
+    background-color: rgb(58,52,47);
+  }
+  
+  #video {
+    min-width: 100%;
+    min-height: 538px;
+  }
+  
+  #whyus {
+    width: 100%;
+    text-align: center;
+  }
+  input[type=button], input[type=submit] {
+   border-radius: 5px;
+  }
